@@ -1,0 +1,710 @@
+
+
+
+
+**********Ip*****************
+
+
+
+
+IP Address is eth0 - 0.0.0.0
+
+
+
+
+**********MAC*****************
+
+
+
+
+Mac: 3C:A0:67:18:25:0F
+
+
+
+
+**********Total Cpu*****************
+
+
+
+
+cpu_user = 77332
+cpu_nice = 4715
+cpu_system = 23010
+cpu_idle = 741891
+cpu_iowait = 107709
+cpu_irq = 0
+cpu_softirq = 5819
+cpu_steal_time = 0 
+cpu_guest_system = 0
+
+
+
+
+**********Total Memory*****************
+
+
+
+
+mem_total = 4294967343
+mem_available = 10
+mem_free = 0
+buffers = 140224349536616
+cached = 140723279462960
+2438 
+
+
+
+
+**********DATA  per process*****************  PID = 2438
+
+
+
+
+
+
+
+
+	         **Cpu of the current process, PID =   2438
+
+
+
+
+pid = 2438
+comm = (chrome)
+state = S
+ppid = 1377
+pgrp = 1728
+session = 1728
+tty_nr = 0
+tpgid = -1
+flags = 4194560
+minflt = 571865
+cminflt = 12484
+majflt = 687
+cmajflt = 1
+utime = 13600
+stime = 3834
+cutime = 16
+cstime = 8
+priority = 20
+nice = 0
+num_threads = 29
+itrealvalue = 0
+starttime = 9637
+vsize = 1182568448
+rss = 56347
+rlim = 18446744073709551615
+startcode = 94454277804032
+endcode = 94454414867280
+startstack = 140722441200928
+kstkesp = 0
+kstkeip = 0
+signal = 0
+blocked = 0
+sigignore = 4096
+sigcatch = 83195
+wchan = 0
+nswap = 0
+cnswap = 0
+exit_signal = 17
+processor = 3
+rt_priority = 0
+policy = 0
+delayacct_blkio_ticks = 2676
+
+
+
+
+                    ** memory of the current process, PID  = 2438
+
+
+
+
+pid = 2438
+size = 288713
+resident = 56347
+share = 31972
+text = 33463
+lib = 0
+data = 95872
+dt = 0
+2856 
+
+
+
+
+**********DATA  per process*****************  PID = 2856
+
+
+
+
+
+
+
+
+	         **Cpu of the current process, PID =   2856
+
+
+
+
+pid = 2856
+comm = (chrome)
+state = S
+ppid = 2438
+pgrp = 1728
+session = 1728
+tty_nr = 0
+tpgid = -1
+flags = 4194304
+minflt = 52219
+cminflt = 0
+majflt = 48
+cmajflt = 0
+utime = 7849
+stime = 3751
+cutime = 0
+cstime = 0
+priority = 20
+nice = 0
+num_threads = 7
+itrealvalue = 0
+starttime = 10845
+vsize = 551383040
+rss = 27098
+rlim = 18446744073709551615
+startcode = 94276955103232
+endcode = 94277092166480
+startstack = 140733128864368
+kstkesp = 0
+kstkeip = 0
+signal = 0
+blocked = 0
+sigignore = 4098
+sigcatch = 1073743096
+wchan = 0
+nswap = 0
+cnswap = 0
+exit_signal = 17
+processor = 1
+rt_priority = 0
+policy = 0
+delayacct_blkio_ticks = 252
+
+
+
+
+                    ** memory of the current process, PID  = 2856
+
+
+
+
+pid = 2856
+size = 134615
+resident = 27098
+share = 16764
+text = 33463
+lib = 0
+data = 23448
+dt = 0
+1052 
+
+
+
+
+**********DATA  per process*****************  PID = 1052
+
+
+
+
+
+
+
+
+	         **Cpu of the current process, PID =   1052
+
+
+
+
+pid = 1052
+comm = (Xorg)
+state = S
+ppid = 1040
+pgrp = 1052
+session = 1052
+tty_nr = 1031
+tpgid = 1052
+flags = 4194560
+minflt = 35723
+cminflt = 3304
+majflt = 47
+cmajflt = 4
+utime = 6954
+stime = 4451
+cutime = 5
+cstime = 0
+priority = 20
+nice = 0
+num_threads = 2
+itrealvalue = 0
+starttime = 3147
+vsize = 391196672
+rss = 16733
+rlim = 18446744073709551615
+startcode = 1
+endcode = 1
+startstack = 0
+kstkesp = 0
+kstkeip = 0
+signal = 0
+blocked = 0
+sigignore = 4096
+sigcatch = 1098933999
+wchan = 0
+nswap = 0
+cnswap = 0
+exit_signal = 17
+processor = 1
+rt_priority = 0
+policy = 0
+delayacct_blkio_ticks = 448
+
+
+
+
+                    ** memory of the current process, PID  = 1052
+
+
+
+
+pid = 1052
+size = 95507
+resident = 16733
+share = 9840
+text = 576
+lib = 0
+data = 9184
+dt = 0
+1728 
+
+
+
+
+**********DATA  per process*****************  PID = 1728
+
+
+
+
+
+
+
+
+	         **Cpu of the current process, PID =   1728
+
+
+
+
+pid = 1728
+comm = (compiz)
+state = S
+ppid = 1377
+pgrp = 1728
+session = 1728
+tty_nr = 0
+tpgid = -1
+flags = 4194304
+minflt = 38294
+cminflt = 159
+majflt = 129
+cmajflt = 0
+utime = 6974
+stime = 1981
+cutime = 0
+cstime = 2
+priority = 20
+nice = 0
+num_threads = 8
+itrealvalue = 0
+starttime = 5970
+vsize = 1581424640
+rss = 36069
+rlim = 18446744073709551615
+startcode = 4194304
+endcode = 4204954
+startstack = 140735926576480
+kstkesp = 0
+kstkeip = 0
+signal = 0
+blocked = 0
+sigignore = 4096
+sigcatch = 81923
+wchan = 0
+nswap = 0
+cnswap = 0
+exit_signal = 17
+processor = 0
+rt_priority = 0
+policy = 0
+delayacct_blkio_ticks = 1115
+
+
+
+
+                    ** memory of the current process, PID  = 1728
+
+
+
+
+pid = 1728
+size = 386090
+resident = 36069
+share = 13546
+text = 3
+lib = 0
+data = 49446
+dt = 0
+6220 
+
+
+
+
+**********DATA  per process*****************  PID = 6220
+
+
+
+
+
+
+
+
+	         **Cpu of the current process, PID =   6220
+
+
+
+
+pid = 6220
+comm = (chrome)
+state = S
+ppid = 2530
+pgrp = 1728
+session = 1728
+tty_nr = 0
+tpgid = -1
+flags = 1077936192
+minflt = 153428
+cminflt = 0
+majflt = 5
+cmajflt = 0
+utime = 3495
+stime = 411
+cutime = 0
+cstime = 0
+priority = 20
+nice = 0
+num_threads = 10
+itrealvalue = 0
+starttime = 30667
+vsize = 827678720
+rss = 40948
+rlim = 18446744073709551615
+startcode = 94672354689024
+endcode = 94672491752272
+startstack = 140728593067696
+kstkesp = 0
+kstkeip = 0
+signal = 0
+blocked = 0
+sigignore = 4098
+sigcatch = 1073827581
+wchan = 0
+nswap = 0
+cnswap = 0
+exit_signal = 17
+processor = 3
+rt_priority = 0
+policy = 0
+delayacct_blkio_ticks = 12
+
+
+
+
+                    ** memory of the current process, PID  = 6220
+
+
+
+
+pid = 6220
+size = 202070
+resident = 40948
+share = 19334
+text = 33463
+lib = 0
+data = 54639
+dt = 0
+6616 
+
+
+
+
+**********DATA  per process*****************  PID = 6616
+
+
+
+
+
+
+
+
+	         **Cpu of the current process, PID =   6616
+
+
+
+
+pid = 6616
+comm = (chrome)
+state = S
+ppid = 2530
+pgrp = 1728
+session = 1728
+tty_nr = 0
+tpgid = -1
+flags = 1077936192
+minflt = 303802
+cminflt = 0
+majflt = 5
+cmajflt = 0
+utime = 3515
+stime = 414
+cutime = 0
+cstime = 0
+priority = 20
+nice = 0
+num_threads = 10
+itrealvalue = 0
+starttime = 33597
+vsize = 784572416
+rss = 33066
+rlim = 18446744073709551615
+startcode = 94672354689024
+endcode = 94672491752272
+startstack = 140728593067696
+kstkesp = 0
+kstkeip = 0
+signal = 0
+blocked = 0
+sigignore = 4098
+sigcatch = 1073827581
+wchan = 0
+nswap = 0
+cnswap = 0
+exit_signal = 17
+processor = 1
+rt_priority = 0
+policy = 0
+delayacct_blkio_ticks = 21
+
+
+
+
+                    ** memory of the current process, PID  = 6616
+
+
+
+
+pid = 6616
+size = 191546
+resident = 33066
+share = 20199
+text = 33463
+lib = 0
+data = 43624
+dt = 0
+6794 
+
+
+
+
+**********DATA  per process*****************  PID = 6794
+
+
+
+
+
+
+
+
+	         **Cpu of the current process, PID =   6794
+
+
+
+
+pid = 6794
+comm = (chrome)
+state = S
+ppid = 2530
+pgrp = 1728
+session = 1728
+tty_nr = 0
+tpgid = -1
+flags = 1077936192
+minflt = 170914
+cminflt = 0
+majflt = 4
+cmajflt = 0
+utime = 3129
+stime = 506
+cutime = 0
+cstime = 0
+priority = 20
+nice = 0
+num_threads = 10
+itrealvalue = 0
+starttime = 41456
+vsize = 778149888
+rss = 33341
+rlim = 18446744073709551615
+startcode = 94672354689024
+endcode = 94672491752272
+startstack = 140728593067696
+kstkesp = 0
+kstkeip = 0
+signal = 0
+blocked = 0
+sigignore = 4098
+sigcatch = 1073827581
+wchan = 0
+nswap = 0
+cnswap = 0
+exit_signal = 17
+processor = 0
+rt_priority = 0
+policy = 0
+delayacct_blkio_ticks = 25
+
+
+
+
+                    ** memory of the current process, PID  = 6794
+
+
+
+
+pid = 6794
+size = 189978
+resident = 33341
+share = 19125
+text = 33463
+lib = 0
+data = 42610
+dt = 0
+1857 
+
+
+
+
+**********DATA  per process*****************  PID = 1857
+
+
+
+
+
+
+
+
+	         **Cpu of the current process, PID =   1857
+
+
+
+
+pid = 1857
+comm = (tracker-store)
+state = S
+ppid = 1377
+pgrp = 1467
+session = 1467
+tty_nr = 0
+tpgid = -1
+flags = 4194304
+minflt = 7994
+cminflt = 0
+majflt = 40
+cmajflt = 0
+utime = 1943
+stime = 2210
+cutime = 0
+cstime = 0
+priority = 20
+nice = 0
+num_threads = 8
+itrealvalue = 0
+starttime = 6172
+vsize = 458932224
+rss = 9160
+rlim = 18446744073709551615
+startcode = 4194304
+endcode = 4324580
+startstack = 140733603793200
+kstkesp = 0
+kstkeip = 0
+signal = 0
+blocked = 0
+sigignore = 4096
+sigcatch = 16386
+wchan = 0
+nswap = 0
+cnswap = 0
+exit_signal = 17
+processor = 0
+rt_priority = 0
+policy = 0
+delayacct_blkio_ticks = 94780
+
+
+
+
+                    ** memory of the current process, PID  = 1857
+
+
+
+
+pid = 1857
+size = 112044
+resident = 9160
+share = 1943
+text = 32
+lib = 0
+data = 21786
+dt = 0
+7779 
+
+
+
+
+**********DATA  per process*****************  PID = 7779
+
+
+
+
+
+
+
+
+	         **Cpu of the current process, PID =   7779
+
+
+
+
+pid = 7779
+comm = (chrome)
+state = S
+ppid = 2530
+pgrp = 1728
+session = 1728
+tty_nr = 0
+tpgid = -1
+flags = 1077936192
+minflt = 60361
+cminflt = 0
+majflt = 1
+cmajflt = 0
+utime = 760
+stime = 9

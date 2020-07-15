@@ -70,7 +70,7 @@ int readStat(int pid, statStuff* s) {
 
 
     
-const char *format = "%d %s %c %d %d %d %d %d %lu %lu %lu %lu %lu %lu %lu %ld %ld %ld %ld %ld %ld %lu %lu %ld %lu %lu %lu %lu %lu %lu %lu %lu %lu %lu %lu %lu %lu %d %d %lu %lu %llu"; 
+const char *format = "%d %s %c  %lu %lu "; 
 
     char buf[256]; 
     FILE *proc; 
@@ -81,45 +81,10 @@ const char *format = "%d %s %c %d %d %d %d %d %lu %lu %lu %lu %lu %lu %lu %ld %l
 	    &s->pid,
 	    s->comm,
 	    &s->state,
-	    &s->ppid,
-	    &s->pgrp,
-	    &s->session,
-	    &s->tty_nr,
-	    &s->tpgid,
-	    &s->flags,
-	    &s->minflt,
-	    &s->cminflt,
-	    &s->majflt,
-	    &s->cmajflt,
+	  
 	    &s->utime,
-	    &s->stime,
-	    &s->cutime,
-	    &s->cstime,
-	    &s->priority,
-	    &s->nice,
-	    &s->num_threads,
-	    &s->itrealvalue,
-	    &s->starttime,
-	    &s->vsize,
-	    &s->rss,
-	    &s->rlim,
-	    &s->startcode,
-	    &s->endcode,
-	    &s->startstack,
-	    &s->kstkesp,
-	    &s->kstkeip,
-	    &s->signal,
-	    &s->blocked,
-	    &s->sigignore,
-	    &s->sigcatch,
-	    &s->wchan,
-	    &s->nswap,
-	    &s->cnswap,
-	    &s->exit_signal,
-	    &s->processor,
-	    &s->rt_priority,
-	    &s->policy,
-	    &s->delayacct_blkio_ticks
+	    &s->stime
+	   
 	)) { 
 	   fclose(proc); 
 	   return 1; 

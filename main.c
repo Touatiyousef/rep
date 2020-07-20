@@ -15,61 +15,26 @@
 #include <arpa/inet.h>
 int main()
 { 
-int total_cpu_anc=0;
-int total_cpu_diff=0;
-cpu cpu;
-
-int total_cpu;
 while(1)
 {
-collecte_donnees(&cpu);	
+ 
+	
 
 
 
 
 printf("\n\n\n\n**********Total Cpu*****************\n\n\n\n\n");
 
+cpu Cpu ; 
+collecte_donnees_cpu(&Cpu);
 
-printf("cpu_user = %s\n", cpu.user );
-printf("cpu_nice = %s\n", cpu.nice );
-printf("cpu_system = %s\n", cpu.system );
-printf("cpu_idle = %s\n", cpu.idle);
-printf("cpu_iowait = %s\n", cpu.iowait);
-printf("cpu_irq = %s\n", cpu.irq);
-printf("cpu_softirq = %s\n", cpu.softirq);
-printf("cpu_steal_time = %s \n",cpu.steal_time);
-printf("cpu_guest_system = %s\n",cpu.guest_system) ; 
-
-
-
-total_cpu = atoi(cpu.user)+atoi (cpu.system )+atoi(cpu.idle)+atoi (cpu.iowait )+atoi(cpu.irq)+atoi (cpu.softirq )+atoi(cpu.steal_time)+atoi (cpu.guest_system );
-printf("cpu_total from the last snapshot = %d \n", total_cpu);
-
-sleep(5) ;
-
-total_cpu_diff = total_cpu - total_cpu_anc ;
-printf("cpu_total diff=  %d \n", total_cpu_diff);
-
-total_cpu_anc=total_cpu;
 
 
 
 printf("\n\n\n\n**********Total Memory*****************\n\n\n\n\n");
 
-mem mem;
-collecte(&mem) ; 
-	
-	printf("mem_total = %lu\n", mem.MemTotal );
-	printf("mem_available = %lu\n", mem.MemFree);
-	printf("mem_free = %lu\n", mem.MemAvailable);
-	printf("buffers = %lu\n", mem.Buffers);
-	printf("cached = %lu\n", mem.Cached);
-
-
-
-
-
-
+mem Mem ;
+collecte_donnees_ram(&Mem) ; 
 
 
 
